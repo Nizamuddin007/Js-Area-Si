@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<style>
+
+    h1 {
+
+        color: red;
+    }
+</style>
+
+</head>
+<body>
+
+<h1>To find area and circumference of circle</h1>
+
+<!-- Area of Circle = pi*r*r
+    circumference of circle = 2*pi*r
+-->
+<label for="radius"> Enter Radius Of Circle</label>
+<input type="number" name="" id="radius">
+
+<br>
+<p id="ans"></p>
+
+<br>
+<button onclick="area()">Area</button>
+<button onclick="circum()">Circumference</button>
+<br>
+<br>
+<hr>
+
+<h1>To find area of Triangle</h1>
+
+<label for="base">Enter base of triangle</label>
+<input type="number" name="" id="base">
+
+<br>
+<br>
+<label for="height">Enter height of triangle</label>
+<input type="number" name="" id="height">
+<br>
+
+<p id="triangleAns"></p>
+
+<button onclick="areaOfTriangle()">Area</button>
+
+<br>
+<br>
+<hr>
+
+<h1>Calculate Simple Interest</h1>
+
+<!-- SI = P*R*T / 100 -->
+
+<label for="principle">Enter Principle Amount</label>
+<input type="number" name="" id="principle">
+<br><br>
+<label for="rate">Enter Rate of Interest in Percentage</label>
+<input type="number" name="" id="rate">
+<br>
+<br>
+<label for="years">Enter period of Time in Years</label>
+<input type="number" name="" id="years">
+<br>
+<p  id="SiAns"></p>
+
+<button onclick="calculateSimpleInterest()">Calculate</button>
+
+
+
+
+
+<script src="index.js"></script>
+    
+</body>
+</html>
